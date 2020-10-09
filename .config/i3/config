@@ -54,10 +54,10 @@ bindsym $mod+d exec dmenu_run
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+semicolon focus right
+#bindsym $mod+j focus left
+#bindsym $mod+k focus down
+#bindsym $mod+l focus up
+#bindsym $mod+semicolon focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -89,7 +89,7 @@ bindsym $mod+f fullscreen toggle
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
 bindsym $mod+w layout tabbed
-bindsym $mod+x layout toggle split
+bindsym $mod+j layout toggle split
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
@@ -155,16 +155,16 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 10 px or 10 ppt
-        bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
-        bindsym semicolon resize grow width 10 px or 10 ppt
+        #bindsym j resize shrink width 10 px or 10 ppt
+        #bindsym k resize grow height 10 px or 10 ppt
+        #bindsym l resize shrink height 10 px or 10 ppt
+        #bindsym semicolon resize grow width 10 px or 10 ppt
 
         # same bindings, but for the arrow keys
-        bindsym Left resize shrink width 10 px or 10 ppt
-        bindsym Down resize grow height 10 px or 10 ppt
-        bindsym Up resize shrink height 10 px or 10 ppt
-        bindsym Right resize grow width 10 px or 10 ppt
+        bindsym Left resize shrink width 5 px or 5 ppt
+        bindsym Down resize grow height 5 px or 5 ppt
+        bindsym Up resize shrink height 5 px or 5 ppt
+        bindsym Right resize grow width 5 px or 5 ppt
 
         # back to normal: Enter or Escape or $mod+r
         bindsym Return mode "default"
@@ -246,7 +246,7 @@ gaps outer 0
 smart_gaps on
 
 # Run tint2 instead of i3status
-exec --no-startup-id tint2 -c ~/.config/tint2/statint-dark-i3.tint2rc  
+exec --no-startup-id tint2 -c ~/.config/tint2/persona-i3.tint2rc
 
 # Change default volume 
 bindsym XF86AudioRaiseVolume exec bash -c '~/.scripts/notify/change-volume up'
@@ -257,6 +257,14 @@ bindsym XF86AudioMute exec bash -c '~/.scripts/notify/change-volume mute'
 # Dunst (notification daemon)
 exec dunst -config ~/.config/dunst/dunstrc-dark-left &
 
+# Power Saver
+exec xfce4-power-manager &
+
+# Mod+L Lock Screen
+bindsym $mod+l exec dm-tool lock
+
+# Load Conky
+exec conky -c ~/.config/conky/syclo/syclo-blue-topleft.conkyrc
 
 
 

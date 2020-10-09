@@ -17,14 +17,14 @@
 # }
 #
 # Single interface:
-# ifaces="eth0"
+ifaces="wlo1"
 #
 # Multiple interfaces:
 # ifaces="eth0 wlan0"
 #
 
 # Auto detect interfaces
-ifaces=$(ls /sys/class/net | grep -E '^(eno|enp|ens|enx|eth|wlan|wlp)')
+#ifaces=$(ls /sys/class/net | grep -E '^(eno|enp|ens|enx|eth|wlan|wlp)')
 
 last_time=0
 last_rx=0

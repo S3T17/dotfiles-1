@@ -28,8 +28,8 @@ order += "tztime local"
 
 wireless _first_ {
         #format_up = "W: (%quality at %essid) %ip"
-        format_up = "<span background='#2be491'>  </span><span background='#f9f9f9'>  %essid (%quality)  </span>"
-        format_down = "<span background='#2be491'>  </span><span background='#f9f9f9'> Disconnected  </span>"
+        format_up = "<span background='#2be491'>  </span><span background='#434c5e'>  %essid (%quality)  </span>"
+        format_down = "<span background='#2be491'>  </span><span background='#434c5e'> Disconnected  </span>"
 }
 
 ethernet _first_ {
@@ -38,11 +38,11 @@ ethernet _first_ {
 }
 
 battery all {
-        format = "<span background='#63c5ea'>  </span><span background='#f9f9f9'>  %percentage [%status | %remaining]  </span>"
+        format = "<span background='#63c5ea'>  </span><span background='#434c5e'>  %percentage [%status | %remaining]  </span>"
 }
 
 volume master {
-    format = "<span background='#fa5aa4'>  </span><span background='#f9f9f9'>  %volume  </span>"
+    format = "<span background='#fa5aa4'>  </span><span background='#434c5e'>  %volume  </span>"
     format_muted = " muted (%volume)"
 }
 
@@ -55,12 +55,12 @@ load {
 }
 
 memory {
-        format = "<span background='#fa946e'>  </span><span background='#f9f9f9'>  %used/%available  </span>"
+        format = "<span background='#fa946e'>  </span><span background='#434c5e'>  %used/%available  </span>"
         threshold_degraded = "1G"
         format_degraded = "MEMORY < %available"
 }
 
 tztime local {
-		format = "<span background='#cf8ef4'>  </span><span background='#f9f9f9'>  %time </span>"
+		format = "<span background='#cf8ef4'>  </span><span background='#434c5e'>  %time </span>"
 		format_time = "%a %-d %b %H:%M"
 }
