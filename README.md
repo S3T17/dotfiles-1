@@ -4,6 +4,8 @@
 
 ## :snowflake: My Setup :snowflake:
 
+<img src="/Other/p3.png" align="right" width="300px"/>
+
 - **WM :** i3-gaps
 - **Terminal :** urxvt
 - **Shell :** zsh
