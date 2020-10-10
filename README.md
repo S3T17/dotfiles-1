@@ -1,46 +1,44 @@
-> Screenshot
+## :art: Screenshot
 
 ![SS](/Other/screen1.png)
 
-# Installation
+## :wrench: Installation
 
-## Dependencies
+### :computer: **Arch Linux (Dependencies)**
 
-### **Arch Linux**
+> :exclamation: For AUR helper, im using **yay**
 
-> > For AUR helper, im using **yay**
-
-> **i3 Windows Manager**
+> :page_with_curl: **i3 Windows Manager**
 
 ```bash
 sudo pacman -S i3-gaps
 ```
 
-> **Audio**
+> :sound: **Audio**
 
 ```bash
 sudo pacman -S alsa-utils pulseaudio
 ```
 
-> **Brightness**
+> :high_brightness: **Brightness**
 
 ```bash
 yay -S brightnessctl
 ```
 
-> **Network Monitor & RAM Usage**
+> :chart_with_upwards_trend: **Network Monitor & RAM Usage**
 
 ```bash
 yay -S psuinfo
 ```
 
-> **Other utility (panel, notification, terminal, file manager, etc)**
+> :hammer: **Other utility (panel, notification, terminal, file manager, etc)**
 
 ```bash
 yay -S dunst tint2 gsimplecal rofi feh lxappearance qt5ct qt5-styleplugins lxsession xautolock rxvt-unicode-patched xclip scrot thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman tumbler w3m geany nano vim viewnior pavucontrol parcellite neofetch htop picom gtk2-perl zsh zsh-completions imagemagick playerctl networkmanager-dmenu
 ```
 
-> **oh-my-zsh & plugins**
+> :diamonds: **oh-my-zsh & plugins**
 
 - ```bash
   chsh -s /usr/bin/zsh # Change default shell to zsh for current user
@@ -58,9 +56,9 @@ yay -S dunst tint2 gsimplecal rofi feh lxappearance qt5ct qt5-styleplugins lxses
   git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
   ```
 
-## Dotfiles Install
+## :wrench: Dotfiles Install
 
-> **General Config**
+> :file_folder: **General Config**
 
 - ```bash
   git clone https://github.com/ilham25/dotfiles
@@ -74,7 +72,7 @@ yay -S dunst tint2 gsimplecal rofi feh lxappearance qt5ct qt5-styleplugins lxses
   rm -r ~/{README.md,LICENSE,.git} # Delete unnecessary files
   ```
 
-> **Icons**
+> :nut_and_bolt: **Icons**
 
 - ```bash
   cd ~/.icons/
@@ -91,18 +89,16 @@ yay -S dunst tint2 gsimplecal rofi feh lxappearance qt5ct qt5-styleplugins lxses
   rm -r ~/.icons/{Papirus-Custom,Papirus-Dark-Custom,*.tar.xz} # Delete unnecessary files
   ```
 
-## Credits
+> :bulb: **Refresh font cache**
+
+```bash
+fc-cache -rv
+```
+
+## :heart: Credits
 
 - [i3wm Wiki](https://i3wm.org/docs/userguide.html)
 - [Harry Elric](https://github.com/owl4ce/)
 - [nwg-piotr - psuinfo](https://github.com/nwg-piotr)
 - [horst3180 - Arch Theme](https://github.com/horst3180/arc-theme)
 - [Persona Wallpaper](https://wall.alphacoders.com/big.php?i=756850)
-
-```
-
-```
-
-```
-
-```
