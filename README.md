@@ -89,11 +89,11 @@ yay -S dunst tint2 gsimplecal rofi feh lxappearance qt5ct qt5-styleplugins lxses
 
 ## Credits
 
-[i3wm Wiki](https://i3wm.org/docs/userguide.html)
-[Harry Elric](https://github.com/owl4ce/)
-[nwg-piotr - psuinfo](https://github.com/nwg-piotr)
-[horst3180 - Arch Theme](https://github.com/horst3180/arc-theme)
-[Persona Wallpaper](https://wall.alphacoders.com/big.php?i=756850)
+- [i3wm Wiki](https://i3wm.org/docs/userguide.html)
+- [Harry Elric](https://github.com/owl4ce/)
+- [nwg-piotr - psuinfo](https://github.com/nwg-piotr)
+- [horst3180 - Arch Theme](https://github.com/horst3180/arc-theme)
+- [Persona Wallpaper](https://wall.alphacoders.com/big.php?i=756850)
 
 ```
 
