@@ -2,6 +2,16 @@
 
 ![SS](/Other/screen1.png)
 
+## :snowflake: My Setup
+
+- **WM :** i3wm
+- **Terminal :** urxvt
+- **Shell :** zsh
+- **Panel :** tint2
+- **Notification :** dunst
+- **App launcher :** rofi
+- **File manager :** thunar
+
 ## :wrench: Installation
 
 ### :computer: **Arch Linux (Dependencies)**
