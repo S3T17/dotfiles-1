@@ -4,7 +4,7 @@
 
 ## :snowflake: My Setup :snowflake:
 
-- **WM :** i3wm
+- **WM :** i3-gaps
 - **Terminal :** urxvt
 - **Shell :** zsh
 - **Panel :** tint2
