@@ -104,7 +104,7 @@ fc-cache -rv
 ## :heart: Credits
 
 - [i3wm Wiki](https://i3wm.org/docs/userguide.html)
-- [Harry Elric](https://github.com/owl4ce/)
-- [nwg-piotr - psuinfo](https://github.com/nwg-piotr)
-- [horst3180 - Arch Theme](https://github.com/horst3180/arc-theme)
+- [@owl4ce](https://github.com/owl4ce/)
+- [@nwg-piotr - psuinfo](https://github.com/nwg-piotr)
+- [@horst3180 - Arch Theme](https://github.com/horst3180/arc-theme)
 - [Persona Wallpaper](https://wall.alphacoders.com/big.php?i=756850)
