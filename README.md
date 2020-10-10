@@ -117,7 +117,7 @@ yay -S dunst tint2 gsimplecal rofi feh lxappearance qt5ct qt5-styleplugins lxses
 fc-cache -rv
 ```
 
-## :black_square_button: <kbd>Keybinds
+## :black_square_button: Keybinds
 
 | Key                                                                     | Action                                  |
 | ----------------------------------------------------------------------- | --------------------------------------- |
