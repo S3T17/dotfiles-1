@@ -119,24 +119,24 @@ fc-cache -rv
 
 ## :black_square_button: Keybinds
 
-| Key                                                          | Action                                  |
-| ------------------------------------------------------------ | --------------------------------------- |
-| Mod + C                                                      | Close                                   |
-| Mod + Z + :arrow_up:/:arrow_down:/:arrow_left:/:arrow_right: | Resize Windows                          |
-| Mod + E                                                      | Open file manager                       |
-| Mod + Shift + Space                                          | Switch between tiling/floating          |
-| Mod + Left Click (hold)                                      | Move Windows - Floating                 |
-| Mod + Right Click (hold)                                     | Resize Windows - Floating               |
-| Mod + 1/2/3/4/5/6/7/8/9/0                                    | Change Workspace                        |
-| Mod + Shift + 1/2/3/4/5/6/7/8/90                             | Move active windows to workspace number |
-| Mod + R                                                      | App launcher                            |
-| Mod + L                                                      | Lock Screen                             |
-| Mod + Return                                                 | Open terminal                           |
-| Mod + Shift + E                                              | Power Menu                              |
-| Mod + Shift + R                                              | WM Restart                              |
-| Mod + Print                                                  | Screenshot Menu                         |
-| Mod + H                                                      | Change Tiling direction (Horizontal)    |
-| Mod + J                                                      | Change Tiling Direction (Vertical)      |
+| Key                                                                     | Action                                  |
+| ----------------------------------------------------------------------- | --------------------------------------- |
+| <kbd>Mod + C</kbd>                                                      | Close                                   |
+| <kbd>Mod + Z + :arrow_up:/:arrow_down:/:arrow_left:/:arrow_right:</kbd> | Resize Windows                          |
+| <kbd>Mod + E</kbd>                                                      | Open file manager                       |
+| <kbd>Mod + Shift + Space</kbd>                                          | Switch between tiling/floating          |
+| <kbd>Mod + Left Click (hold)</kbd>                                      | Move Windows - Floating                 |
+| <kbd>Mod + Right Click (hold)</kbd>                                     | Resize Windows - Floating               |
+| <kbd>Mod + 1/2/3/4/5/6/7/8/9/0</kbd>                                    | Change Workspace                        |
+| <kbd>Mod + Shift + 1/2/3/4/5/6/7/8/90</kbd>                             | Move active windows to workspace number |
+| <kbd>Mod + R</kbd>                                                      | App launcher                            |
+| <kbd>Mod + L</kbd>                                                      | Lock Screen                             |
+| <kbd>Mod + Return</kbd>                                                 | Open terminal                           |
+| <kbd>Mod + Shift + E</kbd>                                              | Power Menu                              |
+| <kbd>Mod + Shift + R</kbd>                                              | WM Restart                              |
+| <kbd>Mod + Print</kbd>                                                  | Screenshot Menu                         |
+| <kbd>Mod + H</kbd>                                                      | Change Tiling direction (Horizontal)    |
+| <kbd>Mod + J</kbd>                                                      | Change Tiling Direction (Vertical)      |
 
 ## :heart: Credits
 
