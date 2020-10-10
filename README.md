@@ -124,7 +124,7 @@ fc-cache -rv
 | Key                                                                         | Action                                  |
 | --------------------------------------------------------------------------- | --------------------------------------- |
 | <kbd>Mod + C                                                                | Close Windows                           |
-| <kbd>Mod + Z (Release) + :arrow_up:/:arrow_down:/:arrow_left:/:arrow_right: | Resize Windows - Tiling                 |
+| <kbd>Mod + Z (release) + :arrow_up:/:arrow_down:/:arrow_left:/:arrow_right: | Resize Windows - Tiling                 |
 | <kbd>Mod + Shift + :arrow_up:/:arrow_down:/:arrow_left:/:arrow_right:       | Move Windows - Tiling                   |
 | <kbd>Mod + Shift + Space                                                    | Switch between tiling/floating          |
 | <kbd>Mod + Left Click (hold)                                                | Move Windows - Floating                 |
@@ -146,5 +146,5 @@ fc-cache -rv
 - [i3wm Wiki](https://i3wm.org/docs/userguide.html)
 - [@owl4ce](https://github.com/owl4ce/)
 - [@nwg-piotr - psuinfo](https://github.com/nwg-piotr)
-- [@horst3180 - Arch Theme](https://github.com/horst3180/arc-theme)
+- [@horst3180 - Arc Dark Theme](https://github.com/horst3180/arc-theme)
 - [Persona Wallpaper](https://wall.alphacoders.com/big.php?i=756850)
