@@ -2,7 +2,7 @@
 
 ![SS](/Other/screen1.png)
 
-## :snowflake: My Setup
+## :snowflake: My Setup :snowflake:
 
 - **WM :** i3wm
 - **Terminal :** urxvt
