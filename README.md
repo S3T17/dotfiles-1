@@ -126,12 +126,12 @@ fc-cache -rv
 | <kbd>Mod + C                                                          | Close Windows                           |
 | <kbd>Mod + Z + :arrow_up:/:arrow_down:/:arrow_left:/:arrow_right:     | Resize Windows - Tiling                 |
 | <kbd>Mod + Shift + :arrow_up:/:arrow_down:/:arrow_left:/:arrow_right: | Move Windows - Tiling                   |
-| <kbd>Mod + E                                                          | Open file manager                       |
 | <kbd>Mod + Shift + Space                                              | Switch between tiling/floating          |
 | <kbd>Mod + Left Click (hold)                                          | Move Windows - Floating                 |
 | <kbd>Mod + Right Click (hold)                                         | Resize Windows - Floating               |
 | <kbd>Mod + 1/2/3/4/5/6/7/8/9/0                                        | Change Workspace                        |
-| <kbd>Mod + Shift + 1/2/3/4/5/6/7/8/90                                 | Move active windows to workspace number |
+| <kbd>Mod + Shift + 1/2/3/4/5/6/7/8/9/0                                | Move active windows to workspace number |
+| <kbd>Mod + E                                                          | Open file manager                       |
 | <kbd>Mod + R                                                          | App launcher                            |
 | <kbd>Mod + L                                                          | Lock Screen                             |
 | <kbd>Mod + Return                                                     | Open terminal                           |
