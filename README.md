@@ -32,6 +32,12 @@ yay -S brightnessctl
 yay -S psuinfo
 ```
 
+> :signal_strength: **Wireless Tools**
+
+```bash
+sudo pacman -S wireless_tools
+```
+
 > :hammer: **Other utility (panel, notification, terminal, file manager, etc)**
 
 ```bash
