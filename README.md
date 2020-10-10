@@ -1,3 +1,7 @@
+> Screenshot
+
+![SS](/Other/screen1.png)
+
 # Installation
 
 ## Dependencies
