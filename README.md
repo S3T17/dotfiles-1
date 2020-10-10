@@ -1,3 +1,5 @@
+## :dart: Theme Name
+
 <div style="text-align:center;"><img src="/Other/darkhour.gif" width="300px"/></div>
 
 > _"No one can escape time; it delivers us all to the same end. You can't plug your ears and cover your eyes." - **Pharos (Persona 3)**_
