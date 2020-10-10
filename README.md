@@ -14,7 +14,7 @@
 
 ## :wrench: Installation
 
-### :computer: **Arch Linux (Dependencies)**
+### :computer: **Arch Based (Dependencies)**
 
 > :exclamation: For AUR helper, im using **yay**
 
