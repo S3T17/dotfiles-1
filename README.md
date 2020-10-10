@@ -117,6 +117,27 @@ yay -S dunst tint2 gsimplecal rofi feh lxappearance qt5ct qt5-styleplugins lxses
 fc-cache -rv
 ```
 
+## :black_square_button: Keybinds
+
+| Key                                                          | Action                                  |
+| ------------------------------------------------------------ | --------------------------------------- |
+| Mod + C                                                      | Close                                   |
+| Mod + Z + :arrow_up:/:arrow_down:/:arrow_left:/:arrow_right: | Resize Windows                          |
+| Mod + E                                                      | Open file manager                       |
+| Mod + Shift + Space                                          | Switch between tiling/floating          |
+| Mod + Left Click (hold)                                      | Move Windows - Floating                 |
+| Mod + Right Click (hold)                                     | Resize Windows - Floating               |
+| Mod + 1/2/3/4/5/6/7/8/9/0                                    | Change Workspace                        |
+| Mod + Shift + 1/2/3/4/5/6/7/8/90                             | Move active windows to workspace number |
+| Mod + R                                                      | App launcher                            |
+| Mod + L                                                      | Lock Screen                             |
+| Mod + Return                                                 | Open terminal                           |
+| Mod + Shift + E                                              | Power Menu                              |
+| Mod + Shift + R                                              | WM Restart                              |
+| Mod + Print                                                  | Screenshot Menu                         |
+| Mod + H                                                      | Change Tiling direction (Horizontal)    |
+| Mod + J                                                      | Change Tiling Direction (Vertical)      |
+
 ## :heart: Credits
 
 - [i3wm Wiki](https://i3wm.org/docs/userguide.html)
