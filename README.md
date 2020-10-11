@@ -112,15 +112,15 @@ yay -S dunst tint2 gsimplecal rofi feh lxappearance qt5ct qt5-styleplugins lxses
   cd ~/.icons/
   ```
 - ```bash
-  tar -Jxvf Papirus-Custom.tar.xz && tar -Jxvf Papirus-Dark-Custom.tar.xz
+  tar -Jxvf Papirus-Custom.tar.xz && tar -Jxvf Papirus-Dark-Custom.tar.xz && tar -Jxvf oomox-megumi.tar.xz
   ```
 
 - ```bash
-  sudo cp -r {Papirus-Custom,Papirus-Dark-Custom} /usr/share/icons/
+  sudo cp -r {Papirus-Custom,Papirus-Dark-Custom,oomox-megumi} /usr/share/icons/
   ```
 
 - ```bash
-  rm -r ~/.icons/{Papirus-Custom,Papirus-Dark-Custom,*.tar.xz} # Delete unnecessary files
+  rm -r ~/.icons/{Papirus-Custom,Papirus-Dark-Custom,oomox-megumi,*.tar.xz} # Delete unnecessary files
   ```
 
 > :bulb: **Refresh font cache**
