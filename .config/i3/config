@@ -209,7 +209,7 @@ exec picom -b
 exec kdeconnect-indicator
 
 # Wallpaper Script
-exec sh ~/.fehbg
+#exec sh ~/.fehbg
 
 # Change Title Bar text position
 title_align center
@@ -220,9 +220,21 @@ new_window 1pixel
 
 # Change title bar color
 # class                 border  backgr. text    indicator child_border
-client.focused          #4c7899 #285577 #ffffff #2e9ef4   #434c5e
-client.focused_inactive          #4c7899 #285577 #ffffff #2e9ef4   #333a47
-client.unfocused          #434c5e #285577 #ffffff #2e9ef4   #333a47
+
+# Persona 3 
+#client.focused          #4c7899 #285577 #ffffff #2e9ef4   #434c5e
+#client.focused_inactive          #4c7899 #285577 #ffffff #2e9ef4   #333a47
+#client.unfocused          #434c5e #285577 #ffffff #2e9ef4   #333a47
+
+# # Megumi Kato
+# client.focused          #4c7899 #285577 #ffffff #2e9ef4   #ff879c
+# client.focused_inactive          #4c7899 #285577 #ffffff #2e9ef4   #ff4a6a
+# client.unfocused          #434c5e #285577 #ffffff #2e9ef4   #ff4a6a
+
+client.focused          #4c7899 #285577 #ffffff #2e9ef4   #bfbfbf
+client.focused_inactive          #4c7899 #285577 #ffffff #2e9ef4   #e8e8e8
+client.unfocused          #434c5e #285577 #ffffff #2e9ef4   #e8e8e8
+
 
 # Override exit i3
 bindsym $mod+Shift+e exec bash -c '~/.config/rofi/scripts/powermenu.sh'
@@ -246,7 +258,9 @@ gaps outer 0
 smart_gaps on
 
 # Run tint2 instead of i3status
-exec --no-startup-id tint2 -c ~/.config/tint2/persona-i3.tint2rc
+#exec --no-startup-id tint2 -c ~/.config/tint2/persona-i3.tint2rc
+
+#exec --no-startup-id tint2 -c ~/.config/tint2/megumi-i3.tint2rc
 
 # Change default volume 
 bindsym XF86AudioRaiseVolume exec bash -c '~/.scripts/notify/change-volume up'
@@ -255,7 +269,9 @@ bindsym XF86AudioMute exec bash -c '~/.scripts/notify/change-volume mute'
 #bindsym XF86AudioMicMute exec
 
 # Dunst (notification daemon)
-exec dunst -config ~/.config/dunst/dunstrc-dark-left &
+#exec dunst -config ~/.config/dunst/dunstrc-dark-left &
+#exec dunst -config ~/.config/dunst/dunstrc-left &
+
 
 # Power Saver
 exec xfce4-power-manager &
@@ -264,8 +280,13 @@ exec xfce4-power-manager &
 bindsym $mod+l exec dm-tool lock
 
 # Load Conky
-exec conky -c ~/.config/conky/syclo/syclo-blue-topleft.conkyrc
+#exec conky -c ~/.config/conky/syclo/syclo-blue-topleft.conkyrc
 
+# Megumi Theme
+#exec bash -c ~/.config/i3/startup megumi
+
+# Theme Load
+exec bash -c ~/.config/i3/startup
 
 
 

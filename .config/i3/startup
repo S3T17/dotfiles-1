@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+
+theme="$(cat ~/.config/i3/theme/now)"
+
+megumi() {
+    # Dunst
+    dunst -config ~/.config/dunst/dunstrc-left &
+    # Wallpaper
+    feh --bg-fill ~/.wallpaper/kato.png
+    # GTK, rofi, color theme
+    ~/.config/i3/theme/megumi/megumi-theme
+    # Panel
+    tint2 -c ~/.config/tint2/megumi-i3.tint2rc &
+    # Terminal Color Scheme
+    xrdb ~/.config/i3/theme/megumi/.Xresources
+
+}
+
+persona() {
+    # Dunst
+    dunst -config ~/.config/dunst/dunstrc-dark-left &
+    # Wallpaper
+    feh --bg-fill ~/.wallpaper/p3.png
+    # GTK, rofi, color theme
+    ~/.config/i3/theme/persona/persona-theme
+    # Panel
+    tint2 -c ~/.config/tint2/persona-i3.tint2rc &
+    # Terminal Color Scheme
+    xrdb ~/.config/i3/theme/persona/.Xresources
+
+}
+"$theme"
+exit
+

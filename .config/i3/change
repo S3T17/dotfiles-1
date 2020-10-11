@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+echo "Choose Theme :"
+echo "1. Persona"
+echo "2. Katou Megumi"
+
+read choose
+
+case $choose in
+    1)
+    rm ~/.config/i3/theme/now && echo "persona" >> ~/.config/i3/theme/now
+    echo "Theme changed to : Persona"
+    ;;
+    2)
+    rm ~/.config/i3/theme/now && echo "megumi" >> ~/.config/i3/theme/now
+    echo "Theme changed to : Katou Megumi"
+    ;;
+    *)
+    echo "Input error"
+    ;;
+esac
+
+~/.config/i3/kill-ui &> /dev/null
+~/.config/i3/startup &> /dev/null
