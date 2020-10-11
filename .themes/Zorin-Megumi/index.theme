@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Zorin-Megumi
+Comment=Megumi theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Zorin-Megumi
+MetacityTheme=Zorin-Megumi
+IconTheme=oomox-megumi
+CursorTheme=Adwaita
+ButtonLayout=:minimize,maximize,close
