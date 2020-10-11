@@ -10,16 +10,6 @@
 >
 > ![SS](/Other/screen2.png)
 
-## :clap: How to change theme
-
-> **Run this command and choose the theme index**
-
-```bash
-cht
-```
-
-![SS](/Other/cht.png)
-
 ## :snowflake: My Setup :snowflake:
 
 - **WM :** i3-gaps
@@ -128,6 +118,16 @@ yay -S dunst tint2 gsimplecal rofi feh lxappearance qt5ct qt5-styleplugins lxses
 ```bash
 fc-cache -rv
 ```
+
+## :clap: How to change theme
+
+> **Run this command and choose the theme index**
+
+```bash
+cht
+```
+
+![SS](/Other/cht.png)
 
 ## :black_square_button: Keybinds
 
