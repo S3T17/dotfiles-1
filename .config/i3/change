@@ -4,6 +4,7 @@ echo "Choose Theme :"
 echo "1. Persona"
 echo "2. Katou Megumi"
 
+echo "Choose theme index : "
 read choose
 
 case $choose in

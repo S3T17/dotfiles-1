@@ -125,3 +125,93 @@ alias panes="~/.color-toys/panes"
 alias pipes1="~/.color-toys/pipes1"
 alias pipes2="~/.color-toys/pipes2"
 alias pipes2-slim="~/.color-toys/pipes2-slim"
+
+# PHP LAMPP
+PATH=/opt/lampp/bin:$PATH
+# Brew PATH
+PATH=/opt/brew/bin:$PATH
+
+
+# Mounting Partition
+#alias mdata="sudo ntfs-3g /dev/sdb1 /media/iruha/sdb1 && thunar /media/iruha/sdb1"
+#alias msector="sudo ntfs-3g /dev/sdb5 /media/iruha/sdb5 && thunar /media/iruha/sdb5"
+#alias msystem="sudo ntfs-3g /dev/sda2 /media/iruha/sda2 && thunar /media/iruha/sda2"
+
+mnt() {
+    data() {
+        sudo ntfs-3g /dev/sdb1 /media/iruha/sdb1 && thunar /media/iruha/sdb1
+    }
+    sector() {
+        sudo ntfs-3g /dev/sdb5 /media/iruha/sdb5 && thunar /media/iruha/sdb5
+    }
+    system() {
+        sudo ntfs-3g /dev/sda2 /media/iruha/sda2 && thunar /media/iruha/sda2
+    }
+    usb() {
+        sudo ntfs-3g /dev/sdc1 /media/iruha/sdc1 && thunar /media/iruha/sdc1
+    }
+    "$1"
+}
+
+# Umounting Partition
+# alias udata="sudo umount /dev/sdb1 && print 'Unmounting Partition : Data (/dev/sdb1) success'!"
+# alias usector="sudo umount /deb/sdb5 && print 'Unmounting Partition : Sector (/dev/sdb5) success!'"
+# alias usystem="sudo umount /dev/sda2 && print 'Unmounting Partition : System (/dev/sda2) success!'"
+
+umnt() {
+    data() {
+        sudo umount /dev/sdb1 && print 'Unmounting Partition : Data (/dev/sdb1) success'!
+    }
+    sector() {
+        sudo umount /dev/sdb5 && print 'Unmounting Partition : Sector (/dev/sdb5) success!'
+    }
+    system() {
+        sudo umount /dev/sda2 && print 'Unmounting Partition : System (/dev/sda2) success!'
+    }
+    usb() {
+        sudo umount /dev/sdc1 && print 'Unmounting Partition : USB (/dev/sdc1) success!'
+    }
+    "$1"
+}
+
+# LAMPP Start and Stop
+# alias lamppstart="sudo /opt/lampp/lampp start"
+# alias lamppstop="sudo /opt/lampp/lampp stop"
+
+lampp() {
+    sudo /opt/lampp/lampp "$1"
+}
+
+# htdocs link
+alias cdhtd="cd /opt/lampp/htdocs"
+alias ophtd="thunar /opt/lampp/htdocs"
+
+wordpress() {
+    cp -r /opt/lampp/htdocs/wordpress /opt/lampp/htdocs/"$1"
+    print New WordPress folder created on /opt/lampp/htdocs/"$1"
+}
+wpconf() {
+    create() {
+        cp "$1"/wp-config-sample.php "$1"/wp-config.php
+        geany "$1"/wp-config.php
+    }
+    remove() {
+        rm "$1"/wp-config.php
+    }
+    "$1" "$2"
+}
+
+# pacman related
+alias pcs="sudo pacman -S"
+alias pcr="sudo pacman -R"
+alias pcrs="sudo pacman -Rs"
+
+# Colortest
+alias cts="~/Github/color-scripts/color-scripts/panes"
+
+# Git add,commit,push
+gitpush() {
+    git add . && git commit -m "$1" && git push -u origin master
+}
+
+alias cht="~/.config/i3/change"

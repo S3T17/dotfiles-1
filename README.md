@@ -8,7 +8,23 @@
 
 ## :art: Screenshot
 
-![SS](/Other/screen1.png)
+> **Persona 3 Theme**
+>
+> ![SS](/Other/screen1.png)
+
+> **Katou Megumi Theme**
+>
+> ![SS](/Other/screen2.png)
+
+## :clap: How to change theme
+
+> **Run this command and choose the theme index**
+
+```bash
+cht
+```
+
+![SS](/Other/cht.png)
 
 ## :snowflake: My Setup :snowflake:
 
@@ -148,3 +164,4 @@ fc-cache -rv
 - [@nwg-piotr - psuinfo](https://github.com/nwg-piotr)
 - [@horst3180 - Arc Dark Theme](https://github.com/horst3180/arc-theme)
 - [Persona Wallpaper](https://wall.alphacoders.com/big.php?i=756850)
+- [Katou Megumi Wallpaper](https://wall.alphacoders.com/big.php?i=908221)
