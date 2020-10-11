@@ -1,11 +1,5 @@
 <img alt="Visits" src="https://badges.pufler.dev/visits/ilham25/dotfiles?style=flat-square&label=&color=success&logo=GitHub&logoColor=white&labelColor=373e4d"/>
 
-## :dart: Theme Name
-
-<div style="text-align:center;"><img src="/Other/darkhour.gif" width="300px"/></div>
-
-> _"No one can escape time; it delivers us all to the same end. You can't plug your ears and cover your eyes." - **Pharos (Persona 3)**_
-
 ## :art: Screenshot
 
 > **Persona 3 Theme**
