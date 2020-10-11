@@ -157,5 +157,6 @@ fc-cache -rv
 - [@owl4ce](https://github.com/owl4ce/)
 - [@nwg-piotr - psuinfo](https://github.com/nwg-piotr)
 - [@horst3180 - Arc Dark Theme](https://github.com/horst3180/arc-theme)
+- [ZorinOS theme](https://github.com/ZorinOS/zorin-desktop-themes)
 - [Persona Wallpaper](https://wall.alphacoders.com/big.php?i=756850)
 - [Katou Megumi Wallpaper](https://wall.alphacoders.com/big.php?i=908221)
