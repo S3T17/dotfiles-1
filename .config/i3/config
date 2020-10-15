@@ -215,7 +215,7 @@ exec kdeconnect-indicator
 title_align center
 
 # Remove title bar
-for_window [class="^.*"] border pixel 3
+for_window [class="^.*"] border pixel 0
 new_window 1pixel
 
 # Change title bar color

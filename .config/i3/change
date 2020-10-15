@@ -3,6 +3,7 @@
 echo "Choose Theme :"
 echo "1. Persona"
 echo "2. Katou Megumi"
+echo "3. Koi Yuki"
 
 echo "Choose theme index : "
 read choose
@@ -15,6 +16,10 @@ case $choose in
     2)
     rm ~/.config/i3/theme/now && echo "megumi" >> ~/.config/i3/theme/now
     echo "Theme changed to : Katou Megumi"
+    ;;
+    3)
+    rm ~/.config/i3/theme/now && echo "koiyuki" >> ~/.config/i3/theme/now
+    echo "Theme changed to : testing"
     ;;
     *)
     echo "Input error"

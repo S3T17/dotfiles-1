@@ -29,6 +29,18 @@ persona() {
     xrdb ~/.config/i3/theme/persona/.Xresources
 
 }
+koiyuki() {
+    # Dunst
+    dunst -config ~/.config/dunst/dunstrc-left &
+    # Wallpaper
+    feh --bg-fill ~/.wallpaper/koi_yuki.jpg
+    # GTK, rofi, color theme
+    ~/.config/i3/theme/koiyuki/koiyuki-theme
+    # Panel
+    tint2 -c ~/.config/tint2/koiyuki-i3.tint2rc &
+    # Terminal Color Scheme
+    xrdb ~/.config/i3/theme/koiyuki/.Xresources
+}
 "$theme"
 exit
 
