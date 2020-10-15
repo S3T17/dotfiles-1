@@ -10,6 +10,10 @@
 >
 > ![SS](/Other/screen2.png)
 
+> **Koi Yuki Theme**
+>
+> ![SS](/Other/screen3.png)
+
 ## :snowflake: My Setup :snowflake:
 
 - **WM :** i3-gaps
