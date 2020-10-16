@@ -2,17 +2,18 @@
 
 ## :art: Screenshot
 
-> **Persona 3 Theme**
+> **All Theme**
 >
-> ![SS](/Other/screen1.png)
+> ![SS](/Other/theme.png)
 
+<!--
 > **Katou Megumi Theme**
 >
 > ![SS](/Other/screen2.png)
 
 > **Koi Yuki Theme**
 >
-> ![SS](/Other/screen3.png)
+> ![SS](/Other/screen3.png) -->
 
 ## :snowflake: My Setup :snowflake:
 
@@ -164,3 +165,4 @@ cht
 - [ZorinOS theme](https://github.com/ZorinOS/zorin-desktop-themes)
 - [Persona Wallpaper](https://wall.alphacoders.com/big.php?i=756850)
 - [Katou Megumi Wallpaper](https://wall.alphacoders.com/big.php?i=908221)
+- [Hyouka Wallpaper](https://wall.alphacoders.com/big.php?i=994176)

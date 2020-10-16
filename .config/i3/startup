@@ -41,6 +41,19 @@ koiyuki() {
     # Terminal Color Scheme
     xrdb ~/.config/i3/theme/koiyuki/.Xresources
 }
+
+oreki() {
+    # Dunst
+    dunst -config ~/.config/dunst/dunstrc-dark-left &
+    # Wallpaper
+    feh --bg-fill ~/.wallpaper/oreki.jpg
+    # GTK, rofi, color theme
+    ~/.config/i3/theme/oreki/oreki-theme
+    # Panel
+    tint2 -c ~/.config/tint2/oreki-i3.tint2rc &
+    # Terminal Color Scheme
+    xrdb ~/.config/i3/theme/oreki/.Xresources
+}
 "$theme"
 exit
 

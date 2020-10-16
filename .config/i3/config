@@ -257,6 +257,12 @@ gaps inner 6
 gaps outer 0
 smart_gaps on
 
+# Rounded corner
+#smart_borders on
+#smart_borders no_gaps
+#border_pixel 4
+
+
 # Run tint2 instead of i3status
 #exec --no-startup-id tint2 -c ~/.config/tint2/persona-i3.tint2rc
 
