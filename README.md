@@ -107,15 +107,15 @@ yay -S dunst tint2 gsimplecal rofi feh lxappearance qt5ct qt5-styleplugins lxses
   cd ~/.icons/
   ```
 - ```bash
-  tar -Jxvf Papirus-Custom.tar.xz && tar -Jxvf Papirus-Dark-Custom.tar.xz && tar -Jxvf oomox-megumi.tar.xz
+  tar -Jxvf Papirus-Custom.tar.xz && tar -Jxvf Papirus-Dark-Custom.tar.xz && tar -Jxvf oomox-megumi.tar.xz && tar -Jxvf oomox-oreki.tar.xz
   ```
 
 - ```bash
-  sudo cp -r {Papirus-Custom,Papirus-Dark-Custom,oomox-megumi} /usr/share/icons/
+  sudo cp -r {Papirus-Custom,Papirus-Dark-Custom,oomox-megumi,oomox-oreki} /usr/share/icons/
   ```
 
 - ```bash
-  rm -r ~/.icons/{Papirus-Custom,Papirus-Dark-Custom,oomox-megumi,*.tar.xz} # Delete unnecessary files
+  rm -r ~/.icons/{Papirus-Custom,Papirus-Dark-Custom,oomox-megumi,oomox-oreki,*.tar.xz} # Delete unnecessary files
   ```
 
 > :bulb: **Refresh font cache**
@@ -132,7 +132,7 @@ fc-cache -rv
 cht
 ```
 
-![SS](/Other/cht.png)
+![SS](/Other/cht1.png)
 
 ## :black_square_button: Keybinds
 
