@@ -170,3 +170,4 @@ cht
 - [Persona Wallpaper](https://wall.alphacoders.com/big.php?i=756850)
 - [Katou Megumi Wallpaper](https://wall.alphacoders.com/big.php?i=908221)
 - [Hyouka Wallpaper](https://wall.alphacoders.com/big.php?i=994176)
+- [Frosted Wallpaper](https://wallpaperaccess.com/minimalist-mountain)
