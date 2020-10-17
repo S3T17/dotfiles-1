@@ -2,13 +2,25 @@
 
 ## :art: Screenshot
 
-> **Anime Theme**
+> :link: **Persona 3 Theme**
 >
-> ![SS](/Other/theme.png)
+> ![SS](/Other/p3theme.png)
 
-> **Normal Theme**
+> :link: **Megumi Katou Theme**
 >
-> ![SS](/Other/frosted.png)
+> ![SS](/Other/megumi-theme.png)
+
+> :link: **Koi Yuki Theme**
+>
+> ![SS](/Other/koiyuki-theme.png)
+
+> :link: **Oreki Houtarou Theme**
+>
+> ![SS](/Other/oreki-theme.png)
+
+> **Frosted Theme**
+>
+> ![SS](/Other/frost-theme.png)
 
 <!--
 > **Katou Megumi Theme**
