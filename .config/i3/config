@@ -254,8 +254,9 @@ bindsym $mod+F12 exec networkmanager_dmenu
 
 # Gaps
 gaps inner 6
-gaps outer 0
-smart_gaps on
+#gaps outer 0
+#smart_gaps on
+
 
 # Rounded corner
 #smart_borders on
@@ -291,9 +292,12 @@ bindsym $mod+l exec dm-tool lock
 # Megumi Theme
 #exec bash -c ~/.config/i3/startup megumi
 
+exec killall dunst
+
 # Theme Load
 exec bash -c ~/.config/i3/startup
 
+#"border_radius 10"
 
 
 

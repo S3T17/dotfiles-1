@@ -1,0 +1,93 @@
+! URXVT APPEARANCE
+URxvt.font:                       xft:mplus nerd font mono:size=10
+URxvt.geometry:                   84x15
+URxvt.internalBorder:             20
+URxvt.cursorBlink:                true
+URxvt.cursorUnderline:            true
+URxvt.saveline:                   32768
+URxvt.scrollBar:                  false
+URxvt.scrollBar_right:            true
+URxvt.scrollBar_floating:         false
+URxvt.scrollstyle:                plain
+URxvt.urgentOnBell:               false
+URxvt.depth:                      24
+URxvt.iso14755:                   false
+URxvt.iconFile:                   /home/iruha/.icons/gladient/term.png
+
+! URXVT EXTENSIONS
+URxvt.perl-ext-common:            default,clipboard,keyboard-select,url-select,tabbedex
+
+URxvt.tabbedex.no-tabbedex-keys:  yes
+URxvt.tabbedex.new-button:        false
+URXvt.tabbedex.reopen-on-close:   yes
+URxvt.tabbedex.autohide:          yes
+
+URxvt.tabbedex.tabbar-fg:         4
+URxvt.tabbedex.tabbar-bg:         0
+URxvt.tabbedex.tab-fg:            7
+URxvt.tabbedex.tab-bg:            0
+URxvt.tabbedex.bell-fg:           0
+URxvt.tabbedex.bell-bg:           0
+URxvt.tabbedex.bell-tab-fg:       0
+URxvt.tabbedex.bell-tab-bg:       0
+URxvt.tabbedex.title-fg:          7
+URxvt.tabbedex.title-bg:          0
+
+URxvt.keysym.Control-Shift-T:     perl:tabbedex:new_tab
+URxvt.keysym.Control-Shift-R:     perl:tabbedex:rename_tab
+URxvt.keysym.Control-Shift-W:     perl:tabbedex:kill_tab
+URxvt.keysym.Control-Next:        perl:tabbedex:next_tab
+URxvt.keysym.Control-Prior:       perl:tabbedex:prev_tab
+URxvt.keysym.Control-Shift-Next:  perl:tabbedex:move_tab_right
+URxvt.keysym.Control-Shift-Prior: perl:tabbedex:move_tab_left
+
+URxvt.clipboard.copycmd:          xclip -i -selection clipboard
+URxvt.clipboard.pastecmd:         xclip -o -selection clipboard
+URxvt.keysym.M-c:                 perl:clipboard:copy
+URxvt.keysym.M-v:                 perl:clipboard:paste
+URxvt.keysym.M-Escape:            perl:keyboard-select:activate
+URxvt.keysym.M-s:                 perl:keyboard-select:search
+
+URxvt.urlLauncher:                google-chrome-stable
+URxvt.underlineURLs:              true
+URxvt.urlButton:                  1
+
+!COLOR SCHEME
+
+
+! special
+*.foreground:   #46646f
+*.background:   #ebf2f2
+*.cursorColor:  #46646f
+
+! black
+*.color0:       #9cadb3
+*.color8:       #9cadb3
+
+! red
+*.color1:       #e7a7c2
+*.color9:       #e7a7c2
+
+! green
+*.color2:       #b0e0c5
+*.color10:      #b0e0c5
+
+! yellow
+*.color3:       #e9d1a5
+*.color11:      #e9d1a5
+
+! blue
+*.color4:       #a8c3e2
+*.color12:      #a8c3e2
+
+! magenta
+*.color5:       #ac9fc2
+*.color13:      #ac9fc2
+
+! cyan
+*.color6:       #bce1ef
+*.color14:      #bce1ef
+
+! white
+*.color7:       #46646f
+*.color15:      #46646f

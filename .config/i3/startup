@@ -54,6 +54,20 @@ oreki() {
     # Terminal Color Scheme
     xrdb ~/.config/i3/theme/oreki/.Xresources
 }
+
+frosted() {
+    # Dunst
+    dunst -config ~/.config/dunst/dunstrc-left &
+    # Wallpaper
+    feh --bg-fill ~/.wallpaper/frosted.jpg
+    # GTK, rofi, color theme
+    ~/.config/i3/theme/frosted/frosted-theme
+    # Panel
+    tint2 -c ~/.config/tint2/frosted-i3.tint2rc &
+    # Terminal Color Scheme
+    xrdb ~/.config/i3/theme/frosted/.Xresources
+}
+
 "$theme"
 exit
 

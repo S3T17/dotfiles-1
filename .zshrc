@@ -214,4 +214,22 @@ gitpush() {
     git add . && git commit -m "$1" && git push -u origin master
 }
 
+# Git add,commit
+gitcom() {
+    git add . && git commit -M "$1"
+}
+
 alias cht="~/.config/i3/change"
+
+cppc() {
+    g++ -o "$1" "$1.cpp"
+    ./$1
+}
+
+cbg() {
+    feh --bg-fill "$1"
+}
+
+tarc() {
+    tar cf - "$1" | xz -z - > "$1".tar.xz
+}

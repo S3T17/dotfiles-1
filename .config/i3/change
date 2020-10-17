@@ -1,11 +1,14 @@
 #!/usr/bin/env bash
 
-echo "Choose Theme :"
+echo "Change Theme"
+echo "=== Anime Theme ==="
 echo "1. Persona"
 echo "2. Katou Megumi"
 echo "3. Koi Yuki"
 echo "4. Oreki Houtarou"
-
+echo "=== Normal Theme ==="
+echo "5. Frosted"
+echo " "
 echo "Choose theme index : "
 read choose
 
@@ -20,11 +23,15 @@ case $choose in
     ;;
     3)
     rm ~/.config/i3/theme/now && echo "koiyuki" >> ~/.config/i3/theme/now
-    echo "Theme changed to : koiyuki"
+    echo "Theme changed to : Koi Yuki"
     ;;
     4)
     rm ~/.config/i3/theme/now && echo "oreki" >> ~/.config/i3/theme/now
-    echo "Theme changed to : oreki"
+    echo "Theme changed to : Oreki Houtarou"
+    ;;
+    5)
+    rm ~/.config/i3/theme/now && echo "frosted" >> ~/.config/i3/theme/now
+    echo "Theme changed to : Frosted"
     ;;
     *)
     echo "Input error"
