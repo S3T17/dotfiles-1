@@ -83,7 +83,7 @@ sudo pacman -S wireless_tools
 > :hammer: **Other utility (panel, notification, terminal, file manager, etc)**
 
 ```bash
-yay -S dunst tint2 gsimplecal rofi feh lxappearance qt5ct qt5-styleplugins lxsession xautolock rxvt-unicode-patched xclip scrot thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman tumbler w3m geany nano vim viewnior pavucontrol parcellite neofetch htop picom gtk2-perl zsh zsh-completions imagemagick playerctl networkmanager-dmenu
+yay -S dunst tint2 gsimplecal rofi feh lxappearance qt5ct qt5-styleplugins lxsession xautolock rxvt-unicode-patched xclip scrot thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman tumbler w3m geany nano vim viewnior pavucontrol parcellite neofetch htop picom gtk2-perl xfce4-power-manager zsh zsh-completions imagemagick playerctl networkmanager-dmenu
 ```
 
 > :diamonds: **oh-my-zsh & plugins**
