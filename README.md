@@ -5,34 +5,8 @@
 
 ## :art: Screenshot
 
-> :link: **Persona 3 Theme**
->
-> ![SS](/Other/p3theme.png)
-
-> :link: **Megumi Katou Theme**
->
-> ![SS](/Other/megumi-theme.png)
-
-> :link: **Koi Yuki Theme**
->
-> ![SS](/Other/koiyuki-theme.png)
-
-> :link: **Oreki Houtarou Theme**
->
-> ![SS](/Other/oreki-theme.png)
-
-> :link: **Frosted Theme**
->
-> ![SS](/Other/frost-theme.png)
-
-<!--
-> **Katou Megumi Theme**
->
-> ![SS](/Other/screen2.png)
-
-> **Koi Yuki Theme**
->
-> ![SS](/Other/screen3.png) -->
+> :link: **All Theme**
+> ![SS](/Other/dot.gif)
 
 ## :snowflake: My Setup :snowflake:
 
