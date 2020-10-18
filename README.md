@@ -21,7 +21,7 @@
 >
 > ![SS](/Other/oreki-theme.png)
 
-> **Frosted Theme**
+> :link: **Frosted Theme**
 >
 > ![SS](/Other/frost-theme.png)
 
